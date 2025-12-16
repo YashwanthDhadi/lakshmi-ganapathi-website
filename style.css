@@ -190,11 +190,13 @@ transform: translateY(0);
 
   /* Navbar */
   .nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 24px;
-  }
+  flex-direction: row;        /* keep horizontal */
+  flex-wrap: wrap;            /* allow wrapping */
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 24px;
+ }
 
   .nav-logo {
     height: 60px;
@@ -287,3 +289,4 @@ transform: translateY(0);
     padding: 16px;
   }
 }
+
